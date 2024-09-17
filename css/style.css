@@ -30,6 +30,10 @@ a{
     text-transform: uppercase;
     border-radius: 10px;
     transition: background-color .2s ease;
+    border: 0;
+    cursor: pointer;
+    color: white;
+
     
 }
 .btn-main{
@@ -45,6 +49,10 @@ a{
 }
 .btn-secondary:hover{
     background-color: #666681;
+}
+
+.btn-full{
+    width: 100%;
 }
 .container{
     width: 1200px;
@@ -400,3 +408,120 @@ a{
     margin-bottom: 20px;
 
 }
+
+
+/* product */
+
+.product {
+    padding-top: 100px;
+}
+
+.product .block__title {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.block__title {
+}
+.product__wrapper {
+    display: flex;
+    margin: 0 -10px 80px;
+
+}
+
+.product__pic{
+    height: 400px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+.product__image {
+    flex: 1;
+    padding: 10px;
+
+}
+.product__item {
+    background-color: #14141D;
+    border-radius: 10px;
+    padding: 30px;
+    list-style: 1.4;
+}
+
+.product__item ul{
+    margin: 0;
+    font-size: 18px;
+}
+
+.product__item .product__image{
+    padding: 60px;
+}
+.product__info {
+    width: 420px;
+    padding: 10px;
+}
+.product__price {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+
+
+.product__price del{
+    margin-left: 30px;
+    color: #818181;
+}
+.product__form {
+}
+
+.radio__wrapper{
+    display: flex;
+    margin-bottom: 30px;
+}
+.radio {
+    margin-right: 10px;
+    position: relative;
+
+}
+.radio__input {
+    opacity: 0;
+    position: absolute;
+   
+}
+
+.radio__input:checked + .radio_label{
+    color: #C7A17A;
+    border-color: #C7A17A;
+}
+
+.radio_label {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #fff;
+    border-radius: 5px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color .2s ease;
+
+}
+
+.radio_label:hover{
+    color: #C7A17A;
+}
+
+
+.product_footer {
+    margin-bottom: 80px;
+}
+.block__title {
+    font-size: 24px;
+    margin-bottom: 30x;
+}
+
